@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:"Inter", sans-serif;
+}
+
+
+/****************/
+/*HEADER SECTION*/
+/***************/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5ded8;
+    padding: 0 4.8rem;
+}
+.logo {
+    height: 6.4rem;
+}
+
+/****************/
+/*NAVIGATION*/
+/***************/
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #1d6524;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    border-radius: 10px;
+    padding: 1.2rem 2.4rem;
+    color: #fff;
+    background-color: #2a9134;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: #1d6524;
+} 
+/****************/
+/*MAIN SECTION*/
+/***************/
+
+.section-main {
+    background-color: #e5ded8;
+    padding:4.8rem 0 9.6rem 0;
+}
+
+.main-container {
+    max-width:130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center; 
+    padding: 0 4.8rem;  
+}
+
+.main-description {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.delivered-meals {
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.customers-img {
+    display: flex; 
+}
+
+.customers-img img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #e5ded8;
+}
+
+.customers-img img:last-child {
+    margin: 0;
+}
+
+.customer-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.customer-text span {
+    color: #2a9134;
+    font-size: 2.4rem;
+    font-weight: bold; 
+}
+
+/****************/
+/*HOW IT WORKS*/
+/***************/
+
+.section-how {
+    padding: 9.6rem 0;
+}
+
+.how-img {
+    width: 50%;
+}
+
+.number {
+    font-size: 9.6rem;
+    font-weight: 700;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
